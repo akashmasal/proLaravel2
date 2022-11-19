@@ -9,6 +9,7 @@ class StudentContoller extends Controller
 {
     public function list()
     {
+        
         $students = StudentModel::all();
         // echo "<pre>";
         // print_r($students->toArray());

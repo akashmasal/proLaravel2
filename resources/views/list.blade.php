@@ -12,7 +12,7 @@
   <body>
 
     <div class="container">
-        <h1 class="text-center">Student Details <a href="{{url('/add')}}"><button class="btn btn-primary">ADD</button></a></h1>
+        <h1 class="text-center">{{session()->get('user_id')}}&nbsp;Student Details <a href="{{url('/add')}}"><button class="btn btn-primary">ADD</button></a></h1>
         <table class="table table-bordered table-striped table-hover">
             <thead>
                 <tr>
